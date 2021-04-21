@@ -1,0 +1,5 @@
+Aclaraciones: 
+1. Las partes de la prenda que todavia no presentan un comportamiento las declare como String con el fin de no complejizar cosas que aun no sé cómo performarán. 
+2. Debido a que en el documento dice que se espera poder especificar el tipo, la tela, el color principal y el color secundario pero cuando menciona la categoria dice que se pretende "identificar", asumí que no debia inicializarse. 
+3. Como hay una relación directa entre el tipo de la prenda y su categoria, y el tipo debe especificarse mientras que la categoria debe "identificarse", asumi que era responsabilidad del tipo de la prenda saber a que categoria pertenecia. Termine entonces, por definir al tipo de la prenda como una clase y a la categoria como un atributo de la misma perteneciente al enum Categoria. 
+4. Tengo dudas sobre la validacion tipo-categoria. Todavia no puedo resolver cómo asegurarme de que la categoria establecida es valida. 
